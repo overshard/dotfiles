@@ -1,14 +1,12 @@
 import urllib2
 import re
-from operator import attrgetter
-import os.path
-from datetime import datetime
 import time
-
+import os.path
+from operator import attrgetter
+from datetime import datetime
 
 #
 # A TV Show Fetcher for EZTV.it
-# (Use on legal to torrent shows only like Pioneer One)
 # -- Will export an rss feed <title>.rss
 #
 
@@ -112,45 +110,33 @@ class ShowFetcher:
             fileContents.write('''
 </channel>
 </rss>''')
-            # End preformatting    
+            # End preformatting
 
 #
-# List of shows for fetching, sleep is there simply to
-# not flood the eztv servers with a ton of requests all at once
-# it can be taken out on slower servers/machines
+# Fetch our shows.
 #
-ShowFetcher("Camelot", "http://eztv.it/shows/469/camelot/")
-time.sleep(5)
-ShowFetcher("Archer", "http://eztv.it/shows/319/archer-2009/")
-time.sleep(5)
-ShowFetcher("American Dad", "http://eztv.it/shows/7/american-dad/")
-time.sleep(5)
-ShowFetcher("Family Guy", "http://eztv.it/shows/92/family-guy/")
-time.sleep(5)
-ShowFetcher("South Park", "http://eztv.it/shows/257/south-park/")
-time.sleep(5)
-ShowFetcher("Saturday Night Live", "http://eztv.it/shows/241/saturday-night-live/")
-time.sleep(5)
-ShowFetcher("Sons of Anarchy", "http://eztv.it/shows/255/sons-of-anarchy/")
-time.sleep(5)
-ShowFetcher("Sherlock", "http://eztv.it/shows/376/sherlock/")
-time.sleep(5)
-ShowFetcher("Psych", "http://eztv.it/shows/220/psych/")
-time.sleep(5)
-ShowFetcher("Castle", "http://eztv.it/shows/42/castle-2009/")
-time.sleep(5)
-ShowFetcher("The Big Bang Theory", "http://eztv.it/shows/23/the-big-bang-theory/")
-time.sleep(5)
-ShowFetcher("How I Met Your Mother", "http://eztv.it/shows/125/how-i-met-your-mother/")
-time.sleep(5)
-ShowFetcher("Game of Thrones", "http://eztv.it/shows/481/game-of-thrones/")
-time.sleep(5)
-ShowFetcher("Futurama", "http://eztv.it/shows/374/futurama/")
-time.sleep(5)
-ShowFetcher("Torchwood", "http://eztv.it/shows/277/torchwood/")
-time.sleep(5)
-ShowFetcher("Eureka", "http://eztv.it/shows/89/eureka/")
-time.sleep(5)
-ShowFetcher("Doctor Who", "http://eztv.it/shows/82/doctor-who/")
-time.sleep(5)
-ShowFetcher("The Mentalist", "http://eztv.it/shows/179/the-mentalist/")
+
+shows = [
+    ['Camelot', 'http://eztv.it/shows/469/camelot/'],
+    ['Archer', 'http://eztv.it/shows/319/archer-2009/'],
+    ['American Dad', 'http://eztv.it/shows/7/american-dad/'],
+    ['Family Guy', 'http://eztv.it/shows/92/family-guy/'],
+    ['South Park', 'http://eztv.it/shows/257/south-park/'],
+    ['Saturday Night Live', 'http://eztv.it/shows/241/saturday-night-live/'],
+    ['Sons of Anarchy', 'http://eztv.it/shows/255/sons-of-anarchy/'],
+    ['Sherlock', 'http://eztv.it/shows/376/sherlock/'],
+    ['Psych', 'http://eztv.it/shows/220/psych/'],
+    ['Castle', 'http://eztv.it/shows/42/castle-2009/'],
+    ['The Big Bang Theory', 'http://eztv.it/shows/23/the-big-bang-theory/'],
+    ['How I Met Your Mother', 'http://eztv.it/shows/125/how-i-met-your-mother/'],
+    ['Game of Thrones', 'http://eztv.it/shows/481/game-of-thrones/'],
+    ['Futurama', 'http://eztv.it/shows/374/futurama/'],
+    ['Torchwood', 'http://eztv.it/shows/277/torchwood/'],
+    ['Eureka', 'http://eztv.it/shows/89/eureka/'],
+    ['Doctor Who', 'http://eztv.it/shows/82/doctor-who/'],
+    ['The Mentalist', 'http://eztv.it/shows/179/the-mentalist/'],
+]
+
+for show in shows:
+    time.sleep(5)
+    ShowFetcher(show[0], show[1])
