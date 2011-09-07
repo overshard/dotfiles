@@ -7,7 +7,10 @@
 		80
 	],
 	"shift_tab_unindent": true,
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false,
-	"draw_white_space": "all"
+	"draw_white_space": "all",
+	"draw_indent_guides": false,
+	"ensure_newline_at_eof_on_save": true
 }
