@@ -13,7 +13,9 @@ set noswapfile
 set autoindent
 set cindent
 set backspace=indent,eol,start
+set ffs=unix,dos
 
 
 call pathogen#infect()
 filetype plugin indent on
+
