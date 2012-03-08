@@ -1,9 +1,0 @@
-[submodule "vim/vim/bundle/vim-pony"]
-	path = vim/vim/bundle/vim-pony
-	url = git://github.com/rainerborene/vim-pony.git
-[submodule "vim/vim/bundle/vim-supertab"]
-	path = vim/vim/bundle/vim-supertab
-	url = git://github.com/tsaleh/vim-supertab.git
-[submodule "vim/vim/bundle/vim-surround"]
-	path = vim/vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
