@@ -39,3 +39,15 @@ set nowrap
 :nnoremap <Esc>9 gt9
 :nnoremap <Esc>0 gt0
 
+
+" Tab Word Completion
+" http://vim.wikia.com/wiki/VimTip566
+function! Tab_Or_Complete()
+  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+  endif
+endfunction
+:inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+
