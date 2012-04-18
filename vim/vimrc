@@ -29,8 +29,8 @@ set colorcolumn=81
 
 " Tab Settings
 " http://vim.wikia.com/wiki/Alternative_tab_navigation
-map tj :tabnext<CR>
-map tk :tabprev<CR>
+map tl :tabnext<CR>
+map th :tabprev<CR>
 
 
 " Tab Word Completion
