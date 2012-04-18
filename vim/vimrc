@@ -28,17 +28,9 @@ set colorcolumn=81
 
 
 " Tab Settings
-" http://stackoverflow.com/questions/942558/switch-to-specific-tab-in-vim-like-in-firefox
-:nnoremap <Esc>1 gt1
-:nnoremap <Esc>2 gt2
-:nnoremap <Esc>3 gt3
-:nnoremap <Esc>4 gt4
-:nnoremap <Esc>5 gt5
-:nnoremap <Esc>6 gt6
-:nnoremap <Esc>7 gt7
-:nnoremap <Esc>8 gt8
-:nnoremap <Esc>9 gt9
-:nnoremap <Esc>0 gt0
+" http://vim.wikia.com/wiki/Alternative_tab_navigation
+map tj :tabnext<CR>
+map tk :tabprev<CR>
 
 
 " Tab Word Completion
