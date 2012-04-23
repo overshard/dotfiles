@@ -17,7 +17,6 @@ set nobackup
 set nowritebackup
 set noswapfile
 set autoindent
-set cindent
 set backspace=indent,eol,start
 set ffs=unix,dos
 set nocompatible
