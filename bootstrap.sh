@@ -23,3 +23,4 @@ ln -s code/isaac/dot-files/vim/vim .vim
 ln -s code/isaac/dot-files/vim/vimrc .vimrc
 ln -s code/isaac/dot-files/vim/vimrc .vimrc
 ln -s code/isaac/dot-files/bash/bash_aliases .bash_aliases
+ln -s code/isaac/dot-files/lftp .lftp
