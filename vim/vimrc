@@ -1,8 +1,5 @@
-"
-" VIM Conf by Isaac Bythewood
-" A hodge-podge of settings I've collected over time, some I might use, some I
-" might not anymore.
-"
+" Pathogen
+execute pathogen#infect()
 
 
 " General Settings
@@ -24,21 +21,21 @@ set laststatus=2
 set encoding=utf-8
 set nowrap
 set colorcolumn=81
+filetype plugin indent on
+
+
+" neocomplcache
+let g:neocomplcache_enable_at_startup=1
+
+
+" NERDTree
+let g:nerdtree_tabs_open_on_console_startup=1
+autocmd VimEnter * NERDTreeMirrorOpen
+autocmd VimEnter * wincmd w
 
 
 " Tab Settings
-" http://vim.wikia.com/wiki/Alternative_tab_navigation
-map tl :tabnext<CR>
-map th :tabprev<CR>
+map <C-t>t :tabnext<CR>
+map <C-t>l :tabnext<CR>
+map <C-t>h :tabprev<CR>
 
-
-" Tab Word Completion
-" http://vim.wikia.com/wiki/VimTip566
-function! Tab_Or_Complete()
-  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
-    return "\<C-N>"
-  else
-    return "\<Tab>"
-  endif
-endfunction
-:inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
