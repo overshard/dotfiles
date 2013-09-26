@@ -34,3 +34,6 @@
 [submodule "vim/vim/bundle/neocomplcache.vim"]
 	path = vim/vim/bundle/neocomplcache.vim
 	url = https://github.com/Shougo/neocomplcache.vim
+[submodule "vim/vim/bundle/vim-eunuch"]
+	path = vim/vim/bundle/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
