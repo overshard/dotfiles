@@ -1,1 +1,12 @@
+# Force tmux into 256 color
 alias tmux='tmux -2'
+
+# Easy pastebin a file using sprunge
+pastebin() {
+    cat $1 | curl -F 'sprunge=<-' http://sprunge.us
+}
+
+# Shows top 10 most used commands
+top10() {
+    history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr | head
+}

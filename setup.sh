@@ -11,27 +11,18 @@ echo "      /__/:/    \__\/ /:/     \  \:\        \  \:\        \  \:\/:/      "
 echo "      \__\/       /__/:/       \  \:\        \  \:\        \  \::/       "
 echo "                  \__\/         \__\/         \__\/         \__\/        "
 echo "========================================================================="
-echo "Bootstrapping dot-files..."
+echo "Setting up dot-files..."
 echo "========================================================================="
 
 
-export DEBIAN_FRONTEND=noninteractive
-
-
 echo "========================================================================="
-echo "Installing git..."
+echo "Setting up links in home dir..."
 echo "========================================================================="
-apt-get update
-apt-get --yes install git
-
-
-echo "========================================================================="
-echo "Pulling repo and running setup..."
-echo "========================================================================="
-mkdir --parents /home/isaac/code
-cd /home/isaac/code
-git clone https://github.com/overshard/dot-files
-cd dot-files
-chmod +x setup.sh
-./setup.sh
+cd /home/isaac
+ln -s code/dot-files/git/gitconfig .gitconfig
+ln -s code/dot-files/tmux/tmux.conf .tmux.conf
+ln -s code/dot-files/vim/vim .vim
+ln -s code/dot-files/vim/vimrc .vimrc
+ln -s code/dot-files/bash/bash_aliases .bash_aliases
+ln -s code/dot-files/lftp .lftp
 
