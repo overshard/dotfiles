@@ -24,5 +24,6 @@ ln -s code/dot-files/tmux/tmux.conf .tmux.conf
 ln -s code/dot-files/vim/vim .vim
 ln -s code/dot-files/vim/vimrc .vimrc
 ln -s code/dot-files/bash/bash_aliases .bash_aliases
+ln -s code/dot-files/bash/bashrc .bashrc
 ln -s code/dot-files/lftp .lftp
 
