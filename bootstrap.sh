@@ -32,6 +32,7 @@ mkdir --parents /home/isaac/code
 cd /home/isaac/code
 git clone https://github.com/overshard/dot-files
 cd dot-files
+git submodules update --init
 chmod +x setup.sh
 ./setup.sh
 
