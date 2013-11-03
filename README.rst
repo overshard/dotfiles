@@ -1,5 +1,5 @@
-nebula.bythewood.me
-===================
+dot-files
+=========
 
 The various dot-files I use on my development linux server, I don't like to do
 much as I am a huge believer in good default values for apps but sometimes you
