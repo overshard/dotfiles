@@ -1,7 +1,3 @@
-# Server SSH aliases external network
-alias snebula='ssh nebula.bythewood.me'
-alias sdocker='ssh docker.bythewood.me'
-
 # Force tmux into 256 color
 alias tmux='tmux -2'
 
