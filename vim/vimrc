@@ -28,12 +28,6 @@ filetype plugin indent on
 let g:neocomplcache_enable_at_startup=1
 
 
-" NERDTree
-let g:nerdtree_tabs_open_on_console_startup=1
-autocmd VimEnter * NERDTreeMirrorOpen
-autocmd VimEnter * wincmd w
-
-
 " Tab Settings
 map <C-t>t :tabnext<CR>
 map <C-t>l :tabnext<CR>
