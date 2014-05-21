@@ -32,4 +32,5 @@ let g:neocomplcache_enable_at_startup=1
 map <C-t>t :tabnext<CR>
 map <C-t>l :tabnext<CR>
 map <C-t>h :tabprev<CR>
+map <C-t>o :tabedit .<CR>
 
