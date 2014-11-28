@@ -19,12 +19,12 @@ echo "========================================================================="
 echo "Setting up links in home dir..."
 echo "========================================================================="
 cd /home/isaac
-ln -s code/dot-files/git/gitconfig .gitconfig
-ln -s code/dot-files/tmux/tmux.conf .tmux.conf
-ln -s code/dot-files/vim/vim .vim
-ln -s code/dot-files/vim/vimrc .vimrc
-ln -s code/dot-files/bash/bash_profile .bash_profile
-ln -s code/dot-files/bash/bashrc .bashrc
-ln -s code/dot-files/bash/bash_aliases .bash_aliases
-ln -s code/dot-files/lftp .lftp
+ln -fs code/dot-files/git/gitconfig .gitconfig
+ln -fs code/dot-files/tmux/tmux.conf .tmux.conf
+ln -fs code/dot-files/vim/vim .vim
+ln -fs code/dot-files/vim/vimrc .vimrc
+ln -fs code/dot-files/bash/bash_profile .bash_profile
+ln -fs code/dot-files/bash/bashrc .bashrc
+ln -fs code/dot-files/bash/bash_aliases .bash_aliases
+ln -fs code/dot-files/lftp .lftp
 
