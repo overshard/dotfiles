@@ -1,15 +1,13 @@
-" Pathogen
-execute pathogen#infect()
-
-
 " General Settings
-set t_Co=256
+filetype plugin indent on
+syntax enable
 colorscheme wombat256mod
+
+set t_Co=256
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set number
-syntax on
 set nobackup
 set nowritebackup
 set noswapfile
@@ -21,11 +19,6 @@ set laststatus=2
 set encoding=utf-8
 set nowrap
 set colorcolumn=81
-filetype plugin indent on
-
-
-" neocomplcache
-let g:neocomplcache_enable_at_startup=1
 
 
 " Tab Settings
