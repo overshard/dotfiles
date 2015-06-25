@@ -1,5 +1,6 @@
 # Force tmux into 256 color
-alias tmux='tmux -2'
+alias tmux='TERM=xterm-256color tmux -2'
+alias vim='TERM=xterm-256color vim'
 
 # Easy pastebin a file using sprunge
 pastebin() {
