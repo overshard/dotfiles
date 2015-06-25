@@ -17,12 +17,3 @@ If you already have the repo pulled you can run::
 
     ./setup.sh
 
-
-Submodules
-----------
-
-I use a few various submodules for vim bundles. To install them after the git
-clone run::
-
-    git submodule update --init
-
