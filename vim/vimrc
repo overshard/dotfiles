@@ -27,3 +27,7 @@ map <C-t>l :tabnext<CR>
 map <C-t>h :tabprev<CR>
 map <C-t>o :tabedit .<CR>
 
+
+" Pathogen Bundle Loader
+execute pathogen#infect()
+
