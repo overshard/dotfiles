@@ -21,8 +21,8 @@ export DEBIAN_FRONTEND=noninteractive
 echo "========================================================================="
 echo "Installing git..."
 echo "========================================================================="
-apt-get update
-apt-get --yes install git
+apt update
+apt --yes install git
 
 
 echo "========================================================================="
