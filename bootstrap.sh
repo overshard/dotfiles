@@ -28,8 +28,8 @@ apt-get --yes install git
 echo "========================================================================="
 echo "Pulling repo and running setup..."
 echo "========================================================================="
-mkdir --parents /home/isaac/code
-cd /home/isaac/code
+mkdir --parents ~/code
+cd ~/code
 git clone https://github.com/overshard/dot-files
 cd dot-files
 chmod +x setup.sh

@@ -1,4 +1,3 @@
-" General Settings
 filetype plugin indent on
 syntax enable
 colorscheme wombat256mod
@@ -20,14 +19,7 @@ set encoding=utf-8
 set nowrap
 set colorcolumn=81
 
-
-" Tab Settings
 map <C-t>t :tabnext<CR>
 map <C-t>l :tabnext<CR>
 map <C-t>h :tabprev<CR>
 map <C-t>o :tabedit .<CR>
-
-
-" Pathogen Bundle Loader
-execute pathogen#infect()
-

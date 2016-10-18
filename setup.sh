@@ -18,12 +18,9 @@ echo "========================================================================="
 echo "========================================================================="
 echo "Setting up links in home dir..."
 echo "========================================================================="
-cd /home/isaac
+cd ~/
 ln -fs code/dot-files/git/gitconfig .gitconfig
 ln -fs code/dot-files/tmux/tmux.conf .tmux.conf
 ln -fs code/dot-files/vim/vim .vim
 ln -fs code/dot-files/vim/vimrc .vimrc
-ln -fs code/dot-files/bash/bash_profile .bash_profile
-ln -fs code/dot-files/bash/bashrc .bashrc
-ln -fs code/dot-files/bash/bash_aliases .bash_aliases
 
