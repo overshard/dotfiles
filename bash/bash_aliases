@@ -1,0 +1,1 @@
+alias ls='LC_COLLATE=C ls --color=auto -h --group-directories-first'
