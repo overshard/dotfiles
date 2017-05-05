@@ -17,6 +17,8 @@ mkdir --parents ~/code
 cd ~/code
 git clone https://github.com/overshard/dot-files
 cd dot-files
+git submodule init
+git submodule update
 chmod +x setup.sh
 ./setup.sh
 
