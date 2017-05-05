@@ -1,7 +1,9 @@
+" Color scheme and syntax
 filetype plugin indent on
 syntax enable
 colorscheme wombat256mod
 
+" Sensible defaults
 set t_Co=256
 set expandtab
 set tabstop=4
@@ -17,9 +19,23 @@ set nocompatible
 set laststatus=2
 set encoding=utf-8
 set nowrap
-set colorcolumn=81
+set colorcolumn=80
 
+" Remap window/tab controls
 map <C-t>t :tabnext<CR>
 map <C-t>l :tabnext<CR>
 map <C-t>h :tabprev<CR>
 map <C-t>o :tabedit .<CR>
+
+" Set syntax for .tag files, riot.js
+au BufRead,BufNewFile *.tag :set filetype=html
+
+" Startup pathogen for loading our plugins
+execute pathogen#infect()
+
+" vim-airline settings
+let g:airline#extensions#tabline#enabled = 1
+
+" indentline settings
+let g:indentLine_char = '│'
+let g:indentLine_color_term = 239
