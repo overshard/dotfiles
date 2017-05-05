@@ -1,0 +1,24 @@
+[submodule "vim-sensible"]
+	path = vim/vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "vim-surround"]
+	path = vim/vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "vim-airline"]
+	path = vim/vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "ctrlp.vim"]
+	path = vim/vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim-indent-guides"]
+	path = vim/vim/bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "vim-sensible"]
+	path = vim/vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "vim-sleuth"]
+	path = vim/vim/bundle/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth
+[submodule "indentline"]
+	path = vim/vim/bundle/indentline
+	url = https://github.com/yggdroot/indentline
