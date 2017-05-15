@@ -9,11 +9,9 @@ just gotta customize.
 Getting Started
 ---------------
 
-This pulls the latest from GitHub on a fresh system and then runs setup::
+This pulls the latest from GitHub on a fresh system and then link to each file
+you want to use, ex.::
 
-    curl "https://raw.github.com/overshard/dot-files/master/bootstrap.sh" | sh
-
-If you already have the repo pulled you can run::
-
-    ./setup.sh
-
+    cd ~
+    ln -sf code/dot-files/git/gitconfig .gitconfig
+    ...
