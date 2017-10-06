@@ -15,3 +15,8 @@ you want to use, ex.::
     cd ~
     ln -sf code/dot-files/git/gitconfig .gitconfig
     ...
+
+To use `git submodules`::
+
+    git submodule init
+    git submodule update

@@ -1,9 +1,29 @@
 " Color scheme and syntax
-filetype plugin indent on
+set nocompatible
+filetype off
 syntax enable
 colorscheme wombat256mod
 
-" Sensible defaults
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-sleuth'
+Plugin 'bling/vim-airline'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'yggdroot/indentline'
+Plugin 'ntpeters/vim-better-whitespace'
+
+" all of your Plugins must be added before the following line
+call vundle#end()
+filetype plugin indent on
+
+
+" sensible defaults
 set t_Co=256
 set expandtab
 set tabstop=4
@@ -22,24 +42,25 @@ set nowrap
 set colorcolumn=80
 set list
 
-" Remap window/tab controls
+
+" ignore plugin indent changes
+filetype plugin on
+
+
+" remap window/tab controls
 map <C-t>t :tabnext<CR>
 map <C-t>l :tabnext<CR>
 map <C-t>h :tabprev<CR>
 map <C-t>o :tabedit .<CR>
 
-" Set syntax for .tag files, riot.js
-au BufRead,BufNewFile *.tag :set filetype=html
 
-" Startup pathogen for loading our plugins
-execute pathogen#infect()
+" set syntax for .vue files, Vue.js
+au BufRead,BufNewFile *.vue :set filetype=html
+
 
 " vim-airline settings
 let g:airline#extensions#tabline#enabled = 1
 
-" indentline settings
-let g:indentLine_char = '│'
-let g:indentLine_color_term = 239
 
 " ctrlP settings
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|venv\|.venv'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|venv'
