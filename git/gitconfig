@@ -1,9 +1,9 @@
 [user]
-    name = Isaac Bythewood
-    email = isaac@bythewood.me
+	name = Isaac Bythewood
+	email = isaac@bythewood.me
 [push]
-    default = simple
+	default = simple
 [core]
-    editor = vim
+	editor = vim
 [pull]
 	rebase = true
