@@ -1,3 +1,2 @@
-export PYTHONDONTWRITEBYTECODE=1
-
 alias ls='LC_COLLATE=C ls --color=auto -h --group-directories-first'
+
