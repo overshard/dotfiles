@@ -3,7 +3,5 @@
 	email = isaac@bythewood.me
 [push]
 	default = simple
-[core]
-	editor = vim
 [pull]
 	rebase = true

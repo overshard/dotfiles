@@ -5,24 +5,6 @@ syntax enable
 colorscheme wombat256mod
 
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-sleuth'
-Plugin 'bling/vim-airline'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'yggdroot/indentline'
-Plugin 'ntpeters/vim-better-whitespace'
-
-" all of your Plugins must be added before the following line
-call vundle#end()
-filetype plugin indent on
-
-
 " sensible defaults
 set t_Co=256
 set expandtab
@@ -57,10 +39,3 @@ map <C-t>o :tabedit .<CR>
 " set syntax for .vue files, Vue.js
 au BufRead,BufNewFile *.vue :set filetype=html
 
-
-" vim-airline settings
-let g:airline#extensions#tabline#enabled = 1
-
-
-" ctrlP settings
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|venv'
