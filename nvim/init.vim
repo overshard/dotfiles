@@ -39,3 +39,8 @@ map <C-t>o :tabedit .<CR>
 " set syntax for .vue files, Vue.js
 au BufRead,BufNewFile *.vue :set filetype=html
 
+
+" ctrlP settings
+set runtimepath^=~/.config/nvim/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|__pycache__'
+
