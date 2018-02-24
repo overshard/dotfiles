@@ -1,0 +1,24 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "boundary",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "editor.dragAndDrop": false,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.renderCharacters": false,
+    "editor.rulers": [
+        80
+    ],
+    "editor.smoothScrolling": true,
+    "window.restoreWindows": "none",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.eol": "\n"
+}
