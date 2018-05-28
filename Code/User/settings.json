@@ -20,5 +20,7 @@
     "files.trimTrailingWhitespace": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
 }
