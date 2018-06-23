@@ -23,5 +23,7 @@
     "files.eol": "\n",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
 }
