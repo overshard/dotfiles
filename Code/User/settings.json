@@ -25,5 +25,6 @@
     "python.linting.flake8Enabled": true,
     "git.enableSmartCommit": true,
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "workbench.statusBar.feedback.visible": false
 }
