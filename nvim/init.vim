@@ -23,6 +23,7 @@ set encoding=utf-8
 set nowrap
 set colorcolumn=80
 set list
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 
 " ignore plugin indent changes
@@ -43,4 +44,3 @@ au BufRead,BufNewFile *.vue :set filetype=html
 " ctrlP settings
 set runtimepath^=~/.config/nvim/bundle/ctrlp.vim
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|__pycache__'
-
