@@ -1,30 +1,53 @@
 {
-    "workbench.startupEditor": "none",
-    "editor.fontSize": 16,
+    "workbench.startupEditor":"none",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "editor.renderWhitespace": "boundary",
     "files.exclude": {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true
+        "**/node_modules/**": true
     },
     "editor.dragAndDrop": false,
     "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": false,
-    "editor.rulers": [
-        80
-    ],
     "editor.smoothScrolling": true,
     "window.restoreWindows": "none",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
     "files.eol": "\n",
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
     "git.enableSmartCommit": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "workbench.statusBar.feedback.visible": false
+    "gitlens.advanced.telemetry.enabled": false,
+    "editor.rulers": [
+        80
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "python.jediEnabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#00FF00"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "black",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontSize": 14
 }
