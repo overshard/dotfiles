@@ -1,53 +1,45 @@
 {
-    "workbench.startupEditor":"none",
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "editor.renderWhitespace": "boundary",
-    "files.exclude": {
-        "**/node_modules/**": true
-    },
-    "editor.dragAndDrop": false,
-    "editor.minimap.maxColumn": 80,
-    "editor.minimap.renderCharacters": false,
-    "editor.smoothScrolling": true,
-    "window.restoreWindows": "none",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.eol": "\n",
-    "git.enableSmartCommit": true,
-    "gitlens.advanced.telemetry.enabled": false,
-    "editor.rulers": [
-        80
-    ],
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "explorer.confirmDelete": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "git.confirmSync": false,
-    "explorer.confirmDragAndDrop": false,
-    "python.jediEnabled": false,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontSize": 14,
-    "workbench.colorCustomizations": {
-        "terminal.foreground": "#00FF00"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    "python.formatting.provider": "black",
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.fontSize": 14
+  "workbench.startupEditor": "none",
+  "window.restoreWindows": "none",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [88],
+  "editor.dragAndDrop": false,
+  "editor.smoothScrolling": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 14,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 80,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#00FF00"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.terminal.activateEnvironment": false,
+  "python.formatting.provider": "black",
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "html.format.wrapLineLength": 80,
+  "html.format.wrapAttributes": "aligned-multiple",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
