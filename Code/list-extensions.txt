@@ -2,9 +2,7 @@ dbaeumer.vscode-eslint
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
-mechatroner.rainbow-csv
 ms-python.python
 ms-vsliveshare.vsliveshare
 octref.vetur
-thebarkman.vscode-djaneiro
-VisualStudioExptTeam.vscodeintellicode
+wholroyd.jinja
