@@ -1,8 +1,8 @@
 {
-  "workbench.startupEditor": "none",
-  "window.restoreWindows": "none",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
+  "workbench.startupEditor": "none",
+  "window.restoreWindows": "none",
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "git.confirmSync": false,
