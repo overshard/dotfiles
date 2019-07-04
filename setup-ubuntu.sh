@@ -5,7 +5,7 @@
 # System installs
 sudo apt-get update
 sudo apt-get install git neovim postgresql redis
-sudo apt-get build-dep python2.7 python3 postgresql
+sudo apt-get build-dep python2.7 python3 python3-mysqldb python3-psycopg2
 
 
 # Development installs
