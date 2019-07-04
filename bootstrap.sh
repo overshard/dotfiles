@@ -18,8 +18,8 @@ fi
 
 
 # Make dirs and clone dot-files repo
-mkdir -p ~/code/isaac
-cd ~/code/isaac
+mkdir -p ~/code/overshard
+cd ~/code/overshard
 git clone https://github.com/overshard/dot-files.git
 cd ~
 
@@ -27,12 +27,12 @@ cd ~
 # Symlink all configuration files
 
 # git
-ln -s ~/code/isaac/dot-files/git/gitconfig .gitconfig
+ln -s ~/code/overshard/dot-files/git/gitconfig .gitconfig
 
 # nvim
 mkdir -p .config
-ln -s ~/code/isaac/dot-files/nvim .config/nvim
+ln -s ~/code/overshard/dot-files/nvim .config/nvim
 
 # bash
-ln -s ~/code/isaac/dot-files/bash/bash_aliases .bash_aliases
-ln -s ~/code/isaac/dot-files/bash/bash_profile .bash_profile
+ln -s ~/code/overshard/dot-files/bash/bash_aliases .bash_aliases
+ln -s ~/code/overshard/dot-files/bash/bash_profile .bash_profile
