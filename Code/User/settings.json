@@ -12,7 +12,7 @@
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
   "editor.renderWhitespace": "boundary",
-  "editor.rulers": [88],
+  "editor.rulers": [80],
   "editor.dragAndDrop": false,
   "editor.smoothScrolling": true,
   "editor.formatOnSave": true,
