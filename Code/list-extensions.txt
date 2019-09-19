@@ -1,13 +1,7 @@
 dbaeumer.vscode-eslint
 eamodio.gitlens
-EditorConfig.EditorConfig
 esbenp.prettier-vscode
-ms-python.python
-ms-vsliveshare.vsliveshare
 octref.vetur
-wholroyd.jinja
-Varandi:Code isaacbythewood$ code --list-extensions
-dbaeumer.vscode-eslint
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
