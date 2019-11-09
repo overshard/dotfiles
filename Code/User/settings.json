@@ -1,10 +1,11 @@
 {
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "workbench.startupEditor": "none",
   "window.restoreWindows": "none",
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#00FF00"
+  },
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "files.insertFinalNewline": true,
@@ -23,19 +24,17 @@
   "editor.minimap.maxColumn": 80,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorBlinking": true,
-  "workbench.colorCustomizations": {
-    "terminal.foreground": "#00FF00"
-  },
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": false,
   "python.terminal.activateEnvironment": false,
   "python.formatting.provider": "black",
+  "python.jediEnabled": false,
   "html.format.endWithNewline": true,
   "html.format.indentHandlebars": true,
   "html.format.wrapLineLength": 80,
-  "html.format.wrapAttributes": "aligned-multiple",
+  "html.format.wrapAttributes": "auto",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
