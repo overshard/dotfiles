@@ -2,7 +2,7 @@
 set nocompatible
 filetype off
 syntax enable
-colorscheme wombat256mod
+colorscheme darkblue
 
 
 " sensible defaults
