@@ -1,23 +1,8 @@
 #!/bin/bash
-# Get all the dot files in place quickly, this can be quickly run via:
-# `curl https://raw.githubusercontent.com/overshard/dot-files/master/bootstrap.sh | sh`
-
-
-# WARNING: Don't run commands via curl sh unless you know what you are doing and where
-# the code is coming from.
-
-
-# Check if brew exists to support macOS, if it does install git via brew, else install
-# via apt for Ubuntu
-if [ -x "$(command -v brew)" ]
-then
-    brew install git
-else
-    sudo apt install git
-fi
 
 
 # Make dirs and clone dot-files repo
+
 mkdir -p ~/code/overshard
 cd ~/code/overshard
 git clone https://github.com/overshard/dot-files.git
@@ -30,9 +15,8 @@ cd ~
 ln -s ~/code/overshard/dot-files/git/gitconfig .gitconfig
 
 # nvim
-mkdir -p .config
-ln -s ~/code/overshard/dot-files/nvim .config/nvim
+mkdir -p ~/.config/nvim
+ln -s ~/code/overshard/dot-files/nvim/init.vim .config/nvim/init.vim
 
 # bash
 ln -s ~/code/overshard/dot-files/bash/bash_aliases .bash_aliases
-ln -s ~/code/overshard/dot-files/bash/bash_profile .bash_profile
