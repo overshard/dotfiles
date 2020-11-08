@@ -10,7 +10,7 @@ just gotta customize.
 This pulls the latest from GitHub commit on a fresh system and then links to each
 file:
 
-    curl https://github.com/overshard/dot-files/edit/master/bootstrap.sh | sh
+    curl https://raw.githubusercontent.com/overshard/dot-files/master/bootstrap.sh | sh
 
 ## Manual Links
 
