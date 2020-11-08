@@ -1,4 +1,4 @@
-" Color scheme and syntax
+" color scheme and syntax
 set nocompatible
 filetype off
 syntax enable
