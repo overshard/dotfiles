@@ -7,8 +7,15 @@ just gotta customize.
 
 ## Getting Started
 
-This pulls the latest from GitHub on a fresh system and then link to each file
-you want to use, ex.:
+This pulls the latest from GitHub commit on a fresh system and then links to each
+file:
+
+    curl https://github.com/overshard/dot-files/edit/master/bootstrap.sh | sh
+
+## Manual Links
+
+You can pull this repo and indivdually links to each config file you want to
+use.
 
     cd ~
     ln -sf code/overshard/dot-files/git/gitconfig .gitconfig
