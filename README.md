@@ -11,10 +11,5 @@ This pulls the latest from GitHub on a fresh system and then link to each file
 you want to use, ex.:
 
     cd ~
-    ln -sf code/dot-files/git/gitconfig .gitconfig
+    ln -sf code/overshard/dot-files/git/gitconfig .gitconfig
     ...
-
-To use `git submodules`:
-
-    git submodule init
-    git submodule update
