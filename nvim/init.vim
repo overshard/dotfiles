@@ -35,7 +35,3 @@ map <C-t>t :tabnext<CR>
 map <C-t>l :tabnext<CR>
 map <C-t>h :tabprev<CR>
 map <C-t>o :tabedit .<CR>
-
-
-" set syntax for .vue files, Vue.js
-au BufRead,BufNewFile *.vue :set filetype=html
