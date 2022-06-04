@@ -17,3 +17,4 @@ ln -s ~/.dotfiles/nvim/init.vim .config/nvim/init.vim
 
 # bash
 ln -s ~/.dotfiles/bash/bash_aliases .bash_aliases
+echo "source ~/.bash_aliases" >> ~/.bashrc
