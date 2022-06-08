@@ -21,4 +21,4 @@ echo "source ~/.bash_aliases" >> ~/.bashrc
 
 # vscode
 mkdir -p ~/.vscode-server/data/Machine
-ln -s ~/.dotfiles/settings.json ~/.vscode-server/data/Machine/settings.json
+ln -s ~/.dotfiles/vscode/settings.json ~/.vscode-server/data/Machine/settings.json
