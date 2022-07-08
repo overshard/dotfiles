@@ -23,3 +23,27 @@ default_height = 15
 
 [[layers]]
 name = 'telescope'
+
+[[layers]]
+name = 'lang#sh'
+
+[[layers]]
+name = 'lang#python'
+
+[[layers]]
+name = 'framework#django'
+
+[[layers]]
+name = 'lang#html'
+
+[[layers]]
+name = 'lang#javascript'
+
+[[layers]]
+name = 'lang#json'
+
+[[layers]]
+name = 'lang#dockerfile'
+
+[[layers]]
+name = 'lang#markdown'

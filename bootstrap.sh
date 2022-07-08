@@ -26,4 +26,4 @@ ln -s ~/.dotfiles/vscode/settings.json ~/.vscode-server/data/Machine/settings.js
 
 # spacevim
 mkdir -p ~/.SpaceVim.d
-ln -s ~/.dotfiles/.SpaceVim.d/init.toml ~/.SpaceVim.d/init.toml
+ln -s ~/.dotfiles/SpaceVim.d/init.toml ~/.SpaceVim.d/init.toml
