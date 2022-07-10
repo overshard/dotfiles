@@ -1,13 +1,5 @@
 alias ls='LC_COLLATE=C ls --color=auto -h --group-directories-first'
 
-alias v='nvim'
-alias vi='nvim'
-alias vim='nvim'
-
 alias dps='sudo docker ps -q | xargs sudo docker stats --no-stream'
 
 alias ku='killall -u dev'
-
-alias ri='rm -rf .venv && rm -rf node_modules && mkdir .venv && pipenv install --dev && yarn install'
-
-alias aiart='sudo docker run -it --rm --gpus all -p 3000:3000 -v "/C/Users/Isaac Bythewood/Documents/AI-Art:/data" overshard/ai-art'
