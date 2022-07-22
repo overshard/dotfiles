@@ -3,3 +3,5 @@ alias ls='LC_COLLATE=C ls --color=auto -h --group-directories-first'
 alias dps='sudo docker ps -q | xargs sudo docker stats --no-stream'
 
 alias ku='killall -u dev'
+
+alias rand='openssl rand -hex 16'
