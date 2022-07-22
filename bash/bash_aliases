@@ -5,3 +5,5 @@ alias dps='sudo docker ps -q | xargs sudo docker stats --no-stream'
 alias ku='killall -u dev'
 
 alias rand='openssl rand -hex 16'
+
+alias grepex='grep --exclude-dir node_modules --exclude-dir .venv -r'
