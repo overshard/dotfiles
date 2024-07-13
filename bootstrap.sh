@@ -23,7 +23,3 @@ echo "source ~/.bash_aliases" >> ~/.bashrc
 # vscode
 mkdir -p ~/.vscode-server/data/Machine
 ln -s ~/.dotfiles/vscode/settings.json ~/.vscode-server/data/Machine/settings.json
-
-# spacevim
-mkdir -p ~/.SpaceVim.d
-ln -s ~/.dotfiles/SpaceVim.d/init.toml ~/.SpaceVim.d/init.toml
