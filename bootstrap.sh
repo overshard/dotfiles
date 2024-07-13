@@ -6,11 +6,6 @@
 cd ~; git clone https://github.com/overshard/dotfiles .dotfiles
 
 
-# Install SpaceVim to have a full IDE via the terminal if required
-
-curl -o- https://spacevim.org/install.sh | bash
-
-
 # Symlink all configuration files
 
 # git
