@@ -1,3 +1,5 @@
+> **Archived.** This project is no longer in use and no longer maintained.
+
 # dotfiles
 
 The various dotfiles I use on my development linux server, I don't like to do
